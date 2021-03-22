@@ -1,7 +1,5 @@
 #' Generates a random rna sequence
-#'
-#' Given a length l as input, 
-#' then generates a RNA sequence with that length
+#' @description Given a length l as input, then generates a RNA sequence with that length
 #' 
 #' @param l Length of the returned rna sequence
 #' 
