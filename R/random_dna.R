@@ -1,3 +1,5 @@
+#' Random DNA Sequence Generator
+#' 
 #' Generates a string of random nucleotides 
 #'
 #' @param l A number
