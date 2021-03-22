@@ -1,11 +1,12 @@
-#' Takes a 3-character string of DNA code and converts in into a 1-letter amino acid
+#' Takes a vector of 3-character strings of DNA code and created a vector with the corresponding 1-letter amino acid
 #' 
-#' Using 3-character string with any three-letter combination of DNA (i.e. "ATG") will return a one-letter amino acid (i.e "M" for input "ATG")
-#' @param codons A 3-character string of DNA code 
+#' Using a vector of 3-character string with any three-letter combination of DNA (i.e. "ATG") will return a one-letter amino acid (i.e "M" for input "ATG")
+#' @param codons A vectors of 3-character strings of DNA code 
 #'
 #' @export
 #' @examples
 #' dna_codons_to_aa("ATG")
+#' dna_codons_to_aa(c("ATG","TTT","GTC"))
 
 dna_codons_to_aa <- function(codons){
   std_code_table <- c("TTT" = "F", "TCT" = "S", "TAT" = "Y", "TGT" = "C",

@@ -2,16 +2,17 @@
 % Please edit documentation in R/dna_codons_to_aa.R
 \name{dna_codons_to_aa}
 \alias{dna_codons_to_aa}
-\title{Takes a 3-character string of DNA code and converts in into a 1-letter amino acid}
+\title{Takes a vector of 3-character strings of DNA code and created a vector with the corresponding 1-letter amino acid}
 \usage{
 dna_codons_to_aa(codons)
 }
 \arguments{
-\item{codons}{A 3-character string of DNA code}
+\item{codons}{A vectors of 3-character strings of DNA code}
 }
 \description{
-Using 3-character string with any three-letter combination of DNA (i.e. "ATG") will return a one-letter amino acid (i.e "M" for input "ATG")
+Using a vector of 3-character string with any three-letter combination of DNA (i.e. "ATG") will return a one-letter amino acid (i.e "M" for input "ATG")
 }
 \examples{
 dna_codons_to_aa("ATG")
+dna_codons_to_aa(c("ATG","TTT","GTC"))
 }
