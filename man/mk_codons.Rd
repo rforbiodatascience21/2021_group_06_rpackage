@@ -14,3 +14,6 @@ mk_codons(dna, s = 1)
 \description{
 make codons
 }
+\examples{
+mk_codons(dna)
+}

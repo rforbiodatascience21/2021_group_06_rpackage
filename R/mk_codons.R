@@ -5,7 +5,8 @@
 #' @param s 
 #'
 #' @export 
-
+#' @examples
+#' mk_codons(dna)
 
 mk_codons <- function(dna, s = 1){
   l = nchar(dna)
