@@ -13,7 +13,7 @@ random_rna(l)
 RNA sequence with length l
 }
 \description{
-Given a length as input, 
+Given a length l as input, 
 then generates a RNA sequence with that length
 }
 \examples{
