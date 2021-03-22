@@ -6,6 +6,11 @@
 \usage{
 mk_codons(dna, s = 1)
 }
+\arguments{
+\item{dna}{}
+
+\item{s}{}
+}
 \description{
 make codons
 }
