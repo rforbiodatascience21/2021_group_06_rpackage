@@ -2,18 +2,18 @@
 % Please edit documentation in R/mk_codons.R
 \name{mk_codons}
 \alias{mk_codons}
-\title{make codons}
+\title{Takes a DNA sequence an converts to codon value: 3-character string of DNA code}
 \usage{
 mk_codons(dna, s = 1)
 }
 \arguments{
-\item{dna}{}
+\item{dna}{a DNA sequence - A string of random nucleotides}
 
 \item{s}{}
 }
 \description{
-make codons
+Takes a DNA sequence an converts to codon value: 3-character string of DNA code
 }
 \examples{
-mk_codons(dna)
+mk_codons(s)
 }
