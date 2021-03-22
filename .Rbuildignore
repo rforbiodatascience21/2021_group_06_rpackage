@@ -3,3 +3,6 @@
 ^lab08aSimpleRpackage\.Rcheck$
 ^lab08aSimpleRpackage.*\.tar\.gz$
 ^lab08aSimpleRpackage.*\.tgz$
+^randomfuncweek8\.Rcheck$
+^randomfuncweek8.*\.tar\.gz$
+^randomfuncweek8.*\.tgz$
