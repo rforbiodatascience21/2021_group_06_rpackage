@@ -21,5 +21,7 @@ This is a basic example which shows you how to solve a common problem:
 ``` r
 library(randomfuncweek8)
 ## basic example code
+random_rna(5)
+[1] "UCGGA"
 ```
 

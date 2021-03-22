@@ -2,7 +2,7 @@
 % Please edit documentation in R/random_dna.R
 \name{random_dna}
 \alias{random_dna}
-\title{Generates a string of random nucleotides}
+\title{Generates a random DNA sequence}
 \usage{
 random_dna(l)
 }
@@ -13,7 +13,7 @@ random_dna(l)
 A string of random nucleotides of length \code{l}
 }
 \description{
-Generates a string of random nucleotides
+Generates a string of random nucleotides of length l
 }
 \examples{
 random_dna(1)

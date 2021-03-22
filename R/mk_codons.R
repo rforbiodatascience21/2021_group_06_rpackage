@@ -1,11 +1,12 @@
-#' make codons
-
-#' @param dna 
+#' Takes a DNA sequence an converts to codon value: 3-character string of DNA code
+#' 
+#' @param dna a DNA sequence - A string of random nucleotides
 #'
 #' @param s 
 #'
 #' @export 
-
+#' @examples
+#' mk_codons(s)
 
 mk_codons <- function(dna, s = 1){
   l = nchar(dna)

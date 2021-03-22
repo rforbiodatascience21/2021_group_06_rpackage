@@ -1,5 +1,6 @@
-#' Generates a string of random nucleotides 
-#'
+#' Generates a random DNA sequence
+#' @description Generates a string of random nucleotides of length l
+#' 
 #' @param l A number
 #'
 #' @return A string of random nucleotides of length \code{l}
