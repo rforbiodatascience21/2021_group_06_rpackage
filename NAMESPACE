@@ -2,4 +2,5 @@
 
 export(dna_codons_to_aa)
 export(mk_codons)
+export(random_dna)
 export(random_rna)
