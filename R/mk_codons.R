@@ -1,6 +1,12 @@
 #' make codons
 
+#' @param dna 
+#'
+#' @param s 
+#'
 #' @export 
+#' @example 
+#' codon (3-bases)
 
 mk_codons <- function(dna, s = 1){
   l = nchar(dna)
