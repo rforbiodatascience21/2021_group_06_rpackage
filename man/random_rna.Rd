@@ -6,6 +6,18 @@
 \usage{
 random_rna(l)
 }
+\arguments{
+\item{l}{Length of the returned rna sequence}
+}
+\value{
+RNA sequence with length l
+}
 \description{
-Generates a random rna sequence
+Given a length as input, 
+then generates a RNA sequence with that length
+}
+\examples{
+# RNA with length 5
+random_rna(5)
+
 }
