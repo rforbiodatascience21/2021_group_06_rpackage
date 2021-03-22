@@ -2,10 +2,16 @@
 % Please edit documentation in R/dna_codons_to_aa.R
 \name{dna_codons_to_aa}
 \alias{dna_codons_to_aa}
-\title{Takes a DNA codon (3 bases) and converts in into a 1-letter amino acid}
+\title{Takes a 3-character string of DNA code and converts in into a 1-letter amino acid}
 \usage{
 dna_codons_to_aa(codons)
 }
+\arguments{
+\item{codons}{A 3-character string of DNA code}
+}
 \description{
-Takes a DNA codon (3 bases) and converts in into a 1-letter amino acid
+Using 3-character string with any three-letter combination of DNA (i.e. "ATG") will return a one-letter amino acid (i.e "M" for input "ATG")
+}
+\examples{
+dna_codons_to_aa("ATG")
 }
