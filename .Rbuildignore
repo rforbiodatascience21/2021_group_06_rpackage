@@ -6,3 +6,4 @@
 ^randomfuncweek8\.Rcheck$
 ^randomfuncweek8.*\.tar\.gz$
 ^randomfuncweek8.*\.tgz$
+^LICENSE\.md$
