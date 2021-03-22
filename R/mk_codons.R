@@ -1,4 +1,6 @@
-# R/mk_codons.R
+#' make codons
+
+#' @export 
 
 mk_codons <- function(dna, s = 1){
   l = nchar(dna)
