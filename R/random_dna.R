@@ -1,7 +1,7 @@
-# R/random_dna.R
-#' Get a string of random nucleotides of length l 
+#' Generates a string of random nucleotides 
 #'
 #' @param l A number
+#'
 #' @return A string of random nucleotides of length \code{l}
 #' @examples
 #' random_dna(1)
